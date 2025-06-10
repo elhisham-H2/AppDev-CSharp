@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/bin/Debug/net8.0/W3aExamples
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/bin/Debug/net8.0/W3aExamples.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/bin/Debug/net8.0/W3aExamples.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/bin/Debug/net8.0/W3aExamples.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/bin/Debug/net8.0/W3aExamples.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/refint/W3aExamples.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/W3aExamples.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExamples/obj/Debug/net8.0/ref/W3aExamples.dll

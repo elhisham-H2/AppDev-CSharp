@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/bin/Debug/net9.0/W2bExercise2
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/bin/Debug/net9.0/W2bExercise2.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/bin/Debug/net9.0/W2bExercise2.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/bin/Debug/net9.0/W2bExercise2.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/bin/Debug/net9.0/W2bExercise2.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/refint/W2bExercise2.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/W2bExercise2.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2bExercise2/obj/Debug/net9.0/ref/W2bExercise2.dll

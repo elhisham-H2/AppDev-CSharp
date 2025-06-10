@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/bin/Debug/net9.0/CSharp
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/bin/Debug/net9.0/CSharp.deps.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/bin/Debug/net9.0/CSharp.runtimeconfig.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/bin/Debug/net9.0/CSharp.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/bin/Debug/net9.0/CSharp.pdb
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.AssemblyInfo.cs
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.sourcelink.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/refint/CSharp.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.pdb
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/CSharp.genruntimeconfig.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/CSharp/obj/Debug/net9.0/ref/CSharp.dll

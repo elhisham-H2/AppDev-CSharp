@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/hashoomi/Desktop/AppDev-CSharp/NumberGuesser/NumberGuesser/bin/Debug/net8.0-ios/iossimulator-arm64/NumberGuesser.app/libSystem.Security.Cryptography.Native.Apple.dylib

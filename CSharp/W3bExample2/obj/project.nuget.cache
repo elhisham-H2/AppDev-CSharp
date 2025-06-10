@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0sttxCswlLk=",
+  "success": true,
+  "projectFilePath": "/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExample2/W3bExample2.csproj",
+  "expectedPackageFiles": [
+    "/Users/hashoomi/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/hashoomi/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/hashoomi/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.16/microsoft.netcore.app.host.osx-x64.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

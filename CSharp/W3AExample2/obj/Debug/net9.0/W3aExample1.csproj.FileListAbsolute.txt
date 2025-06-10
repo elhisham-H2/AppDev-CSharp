@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/bin/Debug/net9.0/W3aExample1
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/bin/Debug/net9.0/W3aExample1.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/bin/Debug/net9.0/W3aExample1.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/bin/Debug/net9.0/W3aExample1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/bin/Debug/net9.0/W3aExample1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/refint/W3aExample1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/W3aExample1.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExample1/obj/Debug/net9.0/ref/W3aExample1.dll

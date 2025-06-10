@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/PriceCalcApp/PriceCalcApp/bin/Debug/net8.0-ios/ios-arm64/PriceCalcApp.app/PriceCalcApp'
+relocations:     []
+...

@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/RollingDiceGame/RollingDiceGame/bin/Debug/net8.0-ios/iossimulator-arm64/RollingDiceGame.app/libxamarin-dotnet-debug.dylib

@@ -1,0 +1,5 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CleanXAttrs" BeforeTargets="_CodesignAppBundle">
+    <Exec Command="xattr -rc $(OutputPath)/$(AssemblyName).app" />
+  </Target>
+</Project>

@@ -1,0 +1,1547 @@
+.subsections_via_symbols
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+.section __DWARF, __debug_abbrev,regular,debug
+Ldebug_abbrev_start:
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 8,1
+	.asciz "Mono AOT Compiler 8.0.16.0 (8.0.1625.21506 @Commit: efd5742bb5dd1677fbbbeb277bcfb5c9025548e5)"
+	.asciz "System.Diagnostics.TraceSource.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,8,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,8,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,8,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,8,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,8,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,120,30
+	.align 3
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Diagnostics_TraceSourcejit_code_start:
+	.globl _mono_aot_System_Diagnostics_TraceSourcejit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+	.align 4
+	.no_dead_strip System_Diagnostics_TraceInternal_WriteLine_string
+System_Diagnostics_TraceInternal_WriteLine_string:
+.file 1 "<unknown>"
+.loc 1 1 0
+.word 0xa9ad7bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9001bbf
+.word 0x3900e3bf
+.word 0xf90023bf
+.word 0xf90027bf
+.word 0xf9002bbf
+.word 0xf9002fbf
+.word 0x390183bf
+bl _p_48
+.word 0x53001c00
+.word 0x34001320
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #192]
+.word 0xf9400000
+.word 0xf9001ba0
+.word 0xd2a00000
+.word 0x3900e3a0
+.word 0xf9401bb9
+.word 0x9100e3b8
+.word 0xaa1903e0
+.word 0x9100e3a1
+bl _mono_monitor_enter_v4_fast
+.word 0x93407c00
+.word 0x35000080
+.word 0xaa1903e0
+.word 0xaa1803e1
+bl _p_25
+bl _p_49
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_50
+.word 0xf90023a0
+.word 0x14000026
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #200]
+.word 0x928003f0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xaa0003f9
+.word 0xb4000179
+.word 0xf9400320
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #208]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540021a1
+.word 0xaa1903f8
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xf9400322
+.word 0xf9403c50
+.word 0xd63f0200
+bl _p_51
+.word 0x53001c00
+.word 0x34000040
+.word 0x3940031e
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #216]
+.word 0x92800ef0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0x35fffa20
+.word 0xf9004bbf
+.word 0x9400000a
+.word 0xf9404ba0
+.word 0xb4000040
+bl _p_18
+.word 0xf9005bbf
+.word 0x9400003d
+.word 0xf9405ba0
+.word 0xb4000040
+bl _p_18
+.word 0x140000e8
+.word 0xf90077be
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94023a0
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xf90053a0
+.word 0xf9404fa0
+.word 0xeb1f001f
+.word 0x54000380
+.word 0xf9404fa0
+.word 0xf9400000
+.word 0xf90057a0
+.word 0xf94057a0
+.word 0xb9403000
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0xeb01001f
+.word 0x540001e3
+.word 0xf94057a0
+.word 0xf9401000
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0x9343fc22
+.word 0x8b020000
+.word 0x39400000
+.word 0xd28000fe
+.word 0xa1e0022
+.word 0xd2800021
+.word 0x1ac22021
+.word 0xa010000
+.word 0xb5000080
+.word 0x14000001
+.word 0xf90053bf
+.word 0x14000001
+.word 0xf94053a0
+.word 0xf90027a0
+.word 0xf94027a0
+.word 0xb4000140
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #232]
+.word 0x928004f0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf94077be
+.word 0xd61f03c0
+.word 0xf9007fbe
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0x3940e3a0
+.word 0x34000060
+.word 0xf9401ba0
+bl _p_26
+.word 0xf9407fbe
+.word 0xd61f03c0
+bl _p_49
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_50
+.word 0xf9002ba0
+.word 0x14000053
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #200]
+.word 0x928003f0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xaa0003f9
+.word 0xb4000179
+.word 0xf9400320
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #208]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540010c1
+.word 0xaa1903f8
+.word 0x3940033e
+.word 0xd2a00000
+.word 0x53001c00
+.word 0x35000540
+.word 0xf9002fb8
+.word 0xd2a00000
+.word 0x390183a0
+.word 0xf9402fb9
+.word 0x910183b7
+.word 0xaa1903e0
+.word 0x910183a1
+bl _mono_monitor_enter_v4_fast
+.word 0x93407c00
+.word 0x35000080
+.word 0xaa1903e0
+.word 0xaa1703e1
+bl _p_25
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xf9400302
+.word 0xf9403c50
+.word 0xd63f0200
+bl _p_51
+.word 0x53001c00
+.word 0x34000040
+.word 0x3940031e
+.word 0xf90037bf
+.word 0x94000005
+.word 0xf94037a0
+.word 0xb4000040
+bl _p_18
+.word 0x14000017
+.word 0xf90087be
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0x394183a0
+.word 0x34000060
+.word 0xf9402fa0
+bl _p_26
+.word 0xf94087be
+.word 0xd61f03c0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+.word 0xf9400302
+.word 0xf9403c50
+.word 0xd63f0200
+bl _p_51
+.word 0x53001c00
+.word 0x34000040
+.word 0x3940031e
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #216]
+.word 0x92800ef0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0x35fff480
+.word 0xf9003bbf
+.word 0x94000005
+.word 0xf9403ba0
+.word 0xb4000040
+bl _p_18
+.word 0x14000039
+.word 0xf9008fbe
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9402ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf90043a0
+.word 0xf9403fa0
+.word 0xeb1f001f
+.word 0x54000380
+.word 0xf9403fa0
+.word 0xf9400000
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xb9403000
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0xeb01001f
+.word 0x540001e3
+.word 0xf94047a0
+.word 0xf9401000
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0x9343fc22
+.word 0x8b020000
+.word 0x39400000
+.word 0xd28000fe
+.word 0xa1e0022
+.word 0xd2800021
+.word 0x1ac22021
+.word 0xa010000
+.word 0xb5000080
+.word 0x14000001
+.word 0xf90043bf
+.word 0x14000001
+.word 0xf94043a0
+.word 0xf90027a0
+.word 0xf94027a0
+.word 0xb4000140
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x15, [x16, #232]
+.word 0x928004f0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf9408fbe
+.word 0xd61f03c0
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8d37bfd
+.word 0xd65f03c0
+.word 0xd2801920
+.word 0xaa1103e1
+bl _p_52
+
+Lme_11:
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Diagnostics_TraceSourcejit_code_end:
+	.globl _mono_aot_System_Diagnostics_TraceSourcejit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Diagnostics_TraceSource_System_SR_Format_string_object_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener__ctor
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_get_LogFileName
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_InitializeSettings
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_DiagnosticsConfiguration_get_LogFileName
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_Trace_WriteLine_string
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_IndentLevel
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_IndentSize
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal__cctor
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_TraceProvider__ctor
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener__ctor_string
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_get_IsThreadSafe
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Dispose
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Dispose_bool
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Flush
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentLevel_int
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_get_NeedIndent
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_NeedIndent_bool
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_get_Count
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Clear
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_RemoveAt_int
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_Item_int
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_set_Item_int_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_IsReadOnly
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_IsFixedSize
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Add_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Contains_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_IndexOf_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Insert_int_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Remove_object
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_get_SyncRoot
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_get_IsSynchronized
+.no_dead_strip _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_CopyTo_System_Array_int
+.no_dead_strip _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+.no_dead_strip _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Action_1_T_REF_invoke_void_T_T_REF
+.no_dead_strip _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+.no_dead_strip _mono_aot_System_Diagnostics_TraceSource_init_method
+.no_dead_strip _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_mrgctx
+.no_dead_strip _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_this
+.no_dead_strip _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_vtable
+.no_dead_strip _mono_aot_System_Diagnostics_TraceSource_icall_cold_wrapper_264
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Diagnostics_TraceSourcemethod_addresses:
+	.globl _mono_aot_System_Diagnostics_TraceSourcemethod_addresses
+	.no_dead_strip method_addresses
+bl _System_Diagnostics_TraceSource_System_SR_Format_string_object_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener__ctor
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_get_LogFileName
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_InitializeSettings
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_DiagnosticsConfiguration_get_LogFileName
+bl _System_Diagnostics_TraceSource_System_Diagnostics_Trace_WriteLine_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_IndentLevel
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_IndentSize
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings
+bl System_Diagnostics_TraceInternal_WriteLine_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal__cctor
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_TraceProvider__ctor
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener__ctor_string
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_get_IsThreadSafe
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Dispose
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Dispose_bool
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_Flush
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentLevel_int
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_get_NeedIndent
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_NeedIndent_bool
+bl method_addresses
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent
+bl method_addresses
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_get_Count
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Clear
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_RemoveAt_int
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_Item_int
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_set_Item_int_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_IsReadOnly
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_get_IsFixedSize
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Add_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Contains_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_IndexOf_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Insert_int_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_IList_Remove_object
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_get_SyncRoot
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_get_IsSynchronized
+bl _System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_System_Collections_ICollection_CopyTo_System_Array_int
+bl method_addresses
+bl _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+bl _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Action_1_T_REF_invoke_void_T_T_REF
+bl _System_Diagnostics_TraceSource_wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+bl _mono_aot_System_Diagnostics_TraceSource_init_method
+bl _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_mrgctx
+bl _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_this
+bl _mono_aot_System_Diagnostics_TraceSource_init_method_gshared_vtable
+bl _mono_aot_System_Diagnostics_TraceSource_icall_cold_wrapper_264
+bl method_addresses
+bl method_addresses
+bl method_addresses
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Diagnostics_TraceSourceunbox_trampolines:
+	.globl _mono_aot_System_Diagnostics_TraceSourceunbox_trampolines
+unbox_trampolines_end:
+_mono_aot_System_Diagnostics_TraceSourceunbox_trampolines_end:
+	.globl _mono_aot_System_Diagnostics_TraceSourceunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Diagnostics_TraceSourceunbox_trampoline_addresses:
+	.globl _mono_aot_System_Diagnostics_TraceSourceunbox_trampoline_addresses
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Diagnostics_TraceSourceunwind_info:
+	.globl _mono_aot_System_Diagnostics_TraceSourceunwind_info
+
+	.byte 24,12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,151,36,152,35,68,153,34,154,33
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Diagnostics_TraceSourceplt:
+	.globl _mono_aot_System_Diagnostics_TraceSourceplt
+mono_aot_System_Diagnostics_TraceSource_plt:
+_p_1_plt_System_Diagnostics_TraceSource__jit_icall_mono_threads_state_poll_llvm:
+	.globl _p_1_plt_System_Diagnostics_TraceSource__jit_icall_mono_threads_state_poll_llvm
+.private_extern _p_1_plt_System_Diagnostics_TraceSource__jit_icall_mono_threads_state_poll_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_threads_state_poll
+plt_System_Diagnostics_TraceSource__jit_icall_mono_threads_state_poll:
+_p_1:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 227
+_p_2_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocVector_intptr_intptr_llvm:
+	.globl _p_2_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocVector_intptr_intptr_llvm
+.private_extern _p_2_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocVector_intptr_intptr_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocVector_intptr_intptr:
+_p_2:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 230
+_p_3_plt_System_Diagnostics_TraceSource_string_Join_string_object___llvm:
+	.globl _p_3_plt_System_Diagnostics_TraceSource_string_Join_string_object___llvm
+.private_extern _p_3_plt_System_Diagnostics_TraceSource_string_Join_string_object___llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_string_Join_string_object__
+plt_System_Diagnostics_TraceSource_string_Join_string_object__:
+_p_3:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 238
+_p_4_plt_System_Diagnostics_TraceSource__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_4_plt_System_Diagnostics_TraceSource__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_4_plt_System_Diagnostics_TraceSource__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_System_Diagnostics_TraceSource__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_4:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 243
+_p_5_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool_llvm:
+	.globl _p_5_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool_llvm
+.private_extern _p_5_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool
+plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_Write_string_bool:
+_p_5:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 246
+_p_6_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool_llvm:
+	.globl _p_6_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool_llvm
+.private_extern _p_6_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool
+plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteLine_string_bool:
+_p_6:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 248
+_p_7_plt_System_Diagnostics_TraceSource_string_Concat_string_string_llvm:
+	.globl _p_7_plt_System_Diagnostics_TraceSource_string_Concat_string_string_llvm
+.private_extern _p_7_plt_System_Diagnostics_TraceSource_string_Concat_string_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_string_Concat_string_string
+plt_System_Diagnostics_TraceSource_string_Concat_string_string:
+_p_7:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 250
+_p_8_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent_llvm:
+	.globl _p_8_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent_llvm
+.private_extern _p_8_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_WriteIndent:
+_p_8:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 255
+_p_9_plt_System_Diagnostics_TraceSource_System_Diagnostics_DebugProvider_WriteCore_string_llvm:
+	.globl _p_9_plt_System_Diagnostics_TraceSource_System_Diagnostics_DebugProvider_WriteCore_string_llvm
+.private_extern _p_9_plt_System_Diagnostics_TraceSource_System_Diagnostics_DebugProvider_WriteCore_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_DebugProvider_WriteCore_string
+plt_System_Diagnostics_TraceSource_System_Diagnostics_DebugProvider_WriteCore_string:
+_p_9:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 257
+_p_10_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string_llvm:
+	.globl _p_10_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string_llvm
+.private_extern _p_10_plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string
+plt_System_Diagnostics_TraceSource_System_Diagnostics_DefaultTraceListener_WriteToLogFile_string:
+_p_10:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 262
+_p_11_plt_System_Diagnostics_TraceSource_System_IO_File_AppendAllText_string_string_llvm:
+	.globl _p_11_plt_System_Diagnostics_TraceSource_System_IO_File_AppendAllText_string_string_llvm
+.private_extern _p_11_plt_System_Diagnostics_TraceSource_System_IO_File_AppendAllText_string_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_IO_File_AppendAllText_string_string
+plt_System_Diagnostics_TraceSource_System_IO_File_AppendAllText_string_string:
+_p_11:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 264
+_p_12_plt_System_Diagnostics_TraceSource_System_SR_Format_string_object_object_llvm:
+	.globl _p_12_plt_System_Diagnostics_TraceSource_System_SR_Format_string_object_object_llvm
+.private_extern _p_12_plt_System_Diagnostics_TraceSource_System_SR_Format_string_object_object_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_SR_Format_string_object_object
+plt_System_Diagnostics_TraceSource_System_SR_Format_string_object_object:
+_p_12:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 269
+_p_13_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_get_undeniable_exception_llvm:
+	.globl _p_13_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_get_undeniable_exception_llvm
+.private_extern _p_13_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_get_undeniable_exception_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_get_undeniable_exception
+plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_get_undeniable_exception:
+_p_13:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 271
+_p_14_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_14_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_14_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_exception
+plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_exception:
+_p_14:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 274
+_p_15_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_WriteLine_string_llvm:
+	.globl _p_15_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_WriteLine_string_llvm
+.private_extern _p_15_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_WriteLine_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_WriteLine_string
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_WriteLine_string:
+_p_15:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 276
+_p_16_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings_llvm:
+	.globl _p_16_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings_llvm
+.private_extern _p_16_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_InitializeSettings:
+_p_16:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 278
+_p_17_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_fast_llvm:
+	.globl _p_17_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_fast_llvm
+.private_extern _p_17_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_fast_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_fast
+plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_fast:
+_p_17:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 280
+_p_18_plt_System_Diagnostics_TraceSource__jit_icall_ves_icall_thread_finish_async_abort_llvm:
+	.globl _p_18_plt_System_Diagnostics_TraceSource__jit_icall_ves_icall_thread_finish_async_abort_llvm
+.private_extern _p_18_plt_System_Diagnostics_TraceSource__jit_icall_ves_icall_thread_finish_async_abort_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_ves_icall_thread_finish_async_abort
+plt_System_Diagnostics_TraceSource__jit_icall_ves_icall_thread_finish_async_abort:
+_p_18:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 283
+_p_19_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_19_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.private_extern _p_19_plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_System_Diagnostics_TraceSource_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_19:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 286
+_p_20_plt_System_Diagnostics_TraceSource_System_Diagnostics_Debug_SetProvider_System_Diagnostics_DebugProvider_llvm:
+	.globl _p_20_plt_System_Diagnostics_TraceSource_System_Diagnostics_Debug_SetProvider_System_Diagnostics_DebugProvider_llvm
+.private_extern _p_20_plt_System_Diagnostics_TraceSource_System_Diagnostics_Debug_SetProvider_System_Diagnostics_DebugProvider_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_Debug_SetProvider_System_Diagnostics_DebugProvider
+plt_System_Diagnostics_TraceSource_System_Diagnostics_Debug_SetProvider_System_Diagnostics_DebugProvider:
+_p_20:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 294
+_p_21_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor_llvm:
+	.globl _p_21_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor_llvm
+.private_extern _p_21_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection__ctor:
+_p_21:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 299
+_p_22_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int_llvm:
+	.globl _p_22_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int_llvm
+.private_extern _p_22_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListener_set_IndentSize_int:
+_p_22:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 301
+_p_23_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener_llvm:
+	.globl _p_23_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener_llvm
+.private_extern _p_23_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_Add_System_Diagnostics_TraceListener:
+_p_23:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 303
+_p_24_plt_System_Diagnostics_TraceSource__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_24_plt_System_Diagnostics_TraceSource__jit_icall_mono_generic_class_init_llvm
+.private_extern _p_24_plt_System_Diagnostics_TraceSource__jit_icall_mono_generic_class_init_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_generic_class_init
+plt_System_Diagnostics_TraceSource__jit_icall_mono_generic_class_init:
+_p_24:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 305
+_p_25_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_internal_llvm:
+	.globl _p_25_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_internal_llvm
+.private_extern _p_25_plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_internal_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_internal
+plt_System_Diagnostics_TraceSource__jit_icall_mono_monitor_enter_v4_internal:
+_p_25:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 308
+_p_26_plt_System_Diagnostics_TraceSource_System_Threading_Monitor_Exit_object_llvm:
+	.globl _p_26_plt_System_Diagnostics_TraceSource_System_Threading_Monitor_Exit_object_llvm
+.private_extern _p_26_plt_System_Diagnostics_TraceSource_System_Threading_Monitor_Exit_object_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Threading_Monitor_Exit_object
+plt_System_Diagnostics_TraceSource_System_Threading_Monitor_Exit_object:
+_p_26:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 311
+_p_27_plt_System_Diagnostics_TraceSource__jit_icall_llvm_resume_unwind_trampoline_llvm:
+	.globl _p_27_plt_System_Diagnostics_TraceSource__jit_icall_llvm_resume_unwind_trampoline_llvm
+.private_extern _p_27_plt_System_Diagnostics_TraceSource__jit_icall_llvm_resume_unwind_trampoline_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_llvm_resume_unwind_trampoline
+plt_System_Diagnostics_TraceSource__jit_icall_llvm_resume_unwind_trampoline:
+_p_27:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 316
+_p_28_plt_System_Diagnostics_TraceSource_System_GC_SuppressFinalize_object_llvm:
+	.globl _p_28_plt_System_Diagnostics_TraceSource_System_GC_SuppressFinalize_object_llvm
+.private_extern _p_28_plt_System_Diagnostics_TraceSource_System_GC_SuppressFinalize_object_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_GC_SuppressFinalize_object
+plt_System_Diagnostics_TraceSource_System_GC_SuppressFinalize_object:
+_p_28:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 319
+_p_29_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_29_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_ldstr_llvm
+.private_extern _p_29_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_ldstr_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_ldstr
+plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_ldstr:
+_p_29:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 324
+_p_30_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_newobj_mscorlib_llvm:
+	.globl _p_30_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_newobj_mscorlib_llvm
+.private_extern _p_30_plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_newobj_mscorlib_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_newobj_mscorlib
+plt_System_Diagnostics_TraceSource__jit_icall_mono_helper_newobj_mscorlib:
+_p_30:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 327
+_p_31_plt_System_Diagnostics_TraceSource_System_ArgumentOutOfRangeException__ctor_string_object_string_llvm:
+	.globl _p_31_plt_System_Diagnostics_TraceSource_System_ArgumentOutOfRangeException__ctor_string_object_string_llvm
+.private_extern _p_31_plt_System_Diagnostics_TraceSource_System_ArgumentOutOfRangeException__ctor_string_object_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_ArgumentOutOfRangeException__ctor_string_object_string
+plt_System_Diagnostics_TraceSource_System_ArgumentOutOfRangeException__ctor_string_object_string:
+_p_31:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 330
+_p_32_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener__ctor_int_llvm:
+	.globl _p_32_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener__ctor_int_llvm
+.private_extern _p_32_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener__ctor_int_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener__ctor_int
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener__ctor_int:
+_p_32:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 335
+_p_33_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener_llvm:
+	.globl _p_33_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener_llvm
+.private_extern _p_33_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_InitializeListener_System_Diagnostics_TraceListener:
+_p_33:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 346
+_p_34_plt_System_Diagnostics_TraceSource_System_Array_Clear_System_Array_int_int_llvm:
+	.globl _p_34_plt_System_Diagnostics_TraceSource_System_Array_Clear_System_Array_int_int_llvm
+.private_extern _p_34_plt_System_Diagnostics_TraceSource_System_Array_Clear_System_Array_int_int_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Array_Clear_System_Array_int_int
+plt_System_Diagnostics_TraceSource_System_Array_Clear_System_Array_int_int:
+_p_34:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 348
+_p_35_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_GetEnumerator_llvm:
+	.globl _p_35_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_GetEnumerator_llvm
+.private_extern _p_35_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_GetEnumerator_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_GetEnumerator
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_GetEnumerator:
+_p_35:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 353
+_p_36_plt_System_Diagnostics_TraceSource_System_ArgumentNullException_ThrowIfNull_object_string_llvm:
+	.globl _p_36_plt_System_Diagnostics_TraceSource_System_ArgumentNullException_ThrowIfNull_object_string_llvm
+.private_extern _p_36_plt_System_Diagnostics_TraceSource_System_ArgumentNullException_ThrowIfNull_object_string_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_ArgumentNullException_ThrowIfNull_object_string
+plt_System_Diagnostics_TraceSource_System_ArgumentNullException_ThrowIfNull_object_string:
+_p_36:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 364
+_p_37_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_RemoveAt_int_llvm:
+	.globl _p_37_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_RemoveAt_int_llvm
+.private_extern _p_37_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_RemoveAt_int_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_RemoveAt_int
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_RemoveAt_int:
+_p_37:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 369
+_p_38_plt_System_Diagnostics_TraceSource_System_ThrowHelper_ThrowArgumentOutOfRange_IndexMustBeLessException_llvm:
+	.globl _p_38_plt_System_Diagnostics_TraceSource_System_ThrowHelper_ThrowArgumentOutOfRange_IndexMustBeLessException_llvm
+.private_extern _p_38_plt_System_Diagnostics_TraceSource_System_ThrowHelper_ThrowArgumentOutOfRange_IndexMustBeLessException_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_ThrowHelper_ThrowArgumentOutOfRange_IndexMustBeLessException
+plt_System_Diagnostics_TraceSource_System_ThrowHelper_ThrowArgumentOutOfRange_IndexMustBeLessException:
+_p_38:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 380
+_p_39_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_set_Item_int_System_Diagnostics_TraceListener_llvm:
+	.globl _p_39_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_set_Item_int_System_Diagnostics_TraceListener_llvm
+.private_extern _p_39_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_set_Item_int_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_set_Item_int_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_set_Item_int_System_Diagnostics_TraceListener:
+_p_39:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 385
+_p_40_plt_System_Diagnostics_TraceSource__jit_icall_mono_create_corlib_exception_2_llvm:
+	.globl _p_40_plt_System_Diagnostics_TraceSource__jit_icall_mono_create_corlib_exception_2_llvm
+.private_extern _p_40_plt_System_Diagnostics_TraceSource__jit_icall_mono_create_corlib_exception_2_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_create_corlib_exception_2
+plt_System_Diagnostics_TraceSource__jit_icall_mono_create_corlib_exception_2:
+_p_40:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 396
+_p_41_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Contains_System_Diagnostics_TraceListener_llvm:
+	.globl _p_41_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Contains_System_Diagnostics_TraceListener_llvm
+.private_extern _p_41_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Contains_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Contains_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Contains_System_Diagnostics_TraceListener:
+_p_41:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 399
+_p_42_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_IndexOf_System_Diagnostics_TraceListener_llvm:
+	.globl _p_42_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_IndexOf_System_Diagnostics_TraceListener_llvm
+.private_extern _p_42_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_IndexOf_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_IndexOf_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_IndexOf_System_Diagnostics_TraceListener:
+_p_42:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 410
+_p_43_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Insert_int_System_Diagnostics_TraceListener_llvm:
+	.globl _p_43_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Insert_int_System_Diagnostics_TraceListener_llvm
+.private_extern _p_43_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Insert_int_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Insert_int_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Insert_int_System_Diagnostics_TraceListener:
+_p_43:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 421
+_p_44_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Remove_System_Diagnostics_TraceListener_llvm:
+	.globl _p_44_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Remove_System_Diagnostics_TraceListener_llvm
+.private_extern _p_44_plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Remove_System_Diagnostics_TraceListener_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Remove_System_Diagnostics_TraceListener
+plt_System_Diagnostics_TraceSource_System_Collections_Generic_List_1_System_Diagnostics_TraceListener_Remove_System_Diagnostics_TraceListener:
+_p_44:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 432
+_p_45_plt_System_Diagnostics_TraceSource__jit_icall_mini_init_method_rgctx_llvm:
+	.globl _p_45_plt_System_Diagnostics_TraceSource__jit_icall_mini_init_method_rgctx_llvm
+.private_extern _p_45_plt_System_Diagnostics_TraceSource__jit_icall_mini_init_method_rgctx_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mini_init_method_rgctx
+plt_System_Diagnostics_TraceSource__jit_icall_mini_init_method_rgctx:
+_p_45:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 443
+_p_46_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_46_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_46_plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_interruption_checkpoint
+plt_System_Diagnostics_TraceSource__jit_icall_mono_thread_interruption_checkpoint:
+_p_46:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 446
+_p_47_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_rethrow_exception_llvm:
+	.globl _p_47_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_rethrow_exception_llvm
+.private_extern _p_47_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_rethrow_exception_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_rethrow_exception
+plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_rethrow_exception:
+_p_47:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 449
+_p_48_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock_llvm:
+	.globl _p_48_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock_llvm
+.private_extern _p_48_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_UseGlobalLock:
+_p_48:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 451
+_p_49_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners_llvm:
+	.globl _p_49_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners_llvm
+.private_extern _p_49_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_Listeners:
+_p_49:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 453
+_p_50_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator_llvm:
+	.globl _p_50_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator_llvm
+.private_extern _p_50_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceListenerCollection_GetEnumerator:
+_p_50:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #640]
+br x16
+.word 455
+_p_51_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush_llvm:
+	.globl _p_51_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush_llvm
+.private_extern _p_51_plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush
+plt_System_Diagnostics_TraceSource_System_Diagnostics_TraceInternal_get_AutoFlush:
+_p_51:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #648]
+br x16
+.word 457
+_p_52_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_corlib_exception_llvm:
+	.globl _p_52_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_corlib_exception_llvm
+.private_extern _p_52_plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_corlib_exception_llvm
+	.no_dead_strip plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_corlib_exception
+plt_System_Diagnostics_TraceSource__jit_icall_mono_arch_throw_corlib_exception:
+_p_52:
+adrp x16, mono_aot_System_Diagnostics_TraceSource_got@PAGE+0
+add x16, x16, mono_aot_System_Diagnostics_TraceSource_got@PAGEOFF
+ldr x16, [x16, #656]
+br x16
+.word 459
+plt_end:
+_mono_aot_System_Diagnostics_TraceSourceplt_end:
+	.globl _mono_aot_System_Diagnostics_TraceSourceplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Diagnostics_TraceSourcejit_got:
+	.globl _mono_aot_System_Diagnostics_TraceSourcejit_got
+.lcomm mono_aot_System_Diagnostics_TraceSource_got, 664
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.data
+	.align 3
+globals:
+_mono_aot_System_Diagnostics_TraceSourceglobals:
+	.globl _mono_aot_System_Diagnostics_TraceSourceglobals
+	.align 3
+	.quad Lglobals_hash
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_0:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 16,7
+	.asciz "System_Object"
+
+LDIFF_SYM3=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM3
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM4=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM5=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_2:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 16,16
+LDIFF_SYM6=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM6
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM7=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM8=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM9=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_1:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 17,16
+LDIFF_SYM10=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM10
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM11=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,16,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM12=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM12
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM13=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM13
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM14=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM14
+LTDIE_3:
+
+	.byte 17
+	.asciz "System_Collections_IEnumerator"
+
+	.byte 16,7
+	.asciz "System_Collections_IEnumerator"
+
+LDIFF_SYM15=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM16=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM16
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM17=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM17
+LTDIE_5:
+
+	.byte 5
+	.asciz "System_MarshalByRefObject"
+
+	.byte 16,16
+LDIFF_SYM18=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM18
+	.byte 2,35,0,0,7
+	.asciz "System_MarshalByRefObject"
+
+LDIFF_SYM19=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM19
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM20=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM20
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM21=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM21
+LTDIE_6:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM22=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM23=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM23
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM24=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM24
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM25=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM25
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM26=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM26
+LTDIE_4:
+
+	.byte 5
+	.asciz "System_Diagnostics_TraceListener"
+
+	.byte 40,16
+LDIFF_SYM27=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM27
+	.byte 2,35,0,6
+	.asciz "_indentLevel"
+
+LDIFF_SYM28=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM28
+	.byte 2,35,24,6
+	.asciz "_indentSize"
+
+LDIFF_SYM29=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM29
+	.byte 2,35,28,6
+	.asciz "_needIndent"
+
+LDIFF_SYM30=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM30
+	.byte 2,35,32,6
+	.asciz "_listenerName"
+
+LDIFF_SYM31=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM31
+	.byte 2,35,16,0,7
+	.asciz "System_Diagnostics_TraceListener"
+
+LDIFF_SYM32=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM32
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM33=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM33
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM34=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM34
+LTDIE_7:
+
+	.byte 17
+	.asciz "System_IDisposable"
+
+	.byte 16,7
+	.asciz "System_IDisposable"
+
+LDIFF_SYM35=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM35
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM36=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM36
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM37=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM37
+	.byte 2
+	.asciz "System.Diagnostics.TraceInternal:WriteLine"
+	.asciz "System_Diagnostics_TraceInternal_WriteLine_string"
+
+	.byte 0,0
+	.quad System_Diagnostics_TraceInternal_WriteLine_string
+	.quad Lme_11
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM38=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM38
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM39=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM39
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM40=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM40
+	.byte 2,141,56,11
+	.asciz "V_2"
+
+LDIFF_SYM41=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM41
+	.byte 3,141,192,0,11
+	.asciz "V_3"
+
+LDIFF_SYM42=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM42
+	.byte 1,104,11
+	.asciz "V_4"
+
+LDIFF_SYM43=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM43
+	.byte 3,141,200,0,11
+	.asciz "V_5"
+
+LDIFF_SYM44=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM44
+	.byte 3,141,208,0,11
+	.asciz "V_6"
+
+LDIFF_SYM45=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM45
+	.byte 1,104,11
+	.asciz "V_7"
+
+LDIFF_SYM46=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM46
+	.byte 3,141,216,0,11
+	.asciz "V_8"
+
+LDIFF_SYM47=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM47
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM48=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM48
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad System_Diagnostics_TraceInternal_WriteLine_string
+
+LDIFF_SYM49=Lme_11 - System_Diagnostics_TraceInternal_WriteLine_string
+	.long LDIFF_SYM49
+	.long 0
+	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,151,36,152,35,68,153,34,154,33
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.text
+	.align 3
+mem_end:

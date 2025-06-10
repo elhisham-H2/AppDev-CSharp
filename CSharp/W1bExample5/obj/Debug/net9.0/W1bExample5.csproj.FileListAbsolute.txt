@@ -1,0 +1,30 @@
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.deps.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.runtimeconfig.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.pdb
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.AssemblyInfo.cs
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.sourcelink.json
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/refint/W1bExample5.dll
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.pdb
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.genruntimeconfig.cache
+/Users/hashoomi/Desktop/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/ref/W1bExample5.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/bin/Debug/net9.0/W1bExample5.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/refint/W1bExample5.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/W1bExample5.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W1bExample5/obj/Debug/net9.0/ref/W1bExample5.dll

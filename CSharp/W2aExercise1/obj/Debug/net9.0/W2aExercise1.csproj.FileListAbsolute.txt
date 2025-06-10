@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/bin/Debug/net9.0/W2aExercise1
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/bin/Debug/net9.0/W2aExercise1.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/bin/Debug/net9.0/W2aExercise1.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/bin/Debug/net9.0/W2aExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/bin/Debug/net9.0/W2aExercise1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/refint/W2aExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/W2aExercise1.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W2aExercise1/obj/Debug/net9.0/ref/W2aExercise1.dll

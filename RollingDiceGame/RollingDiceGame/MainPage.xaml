@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RollingDiceGame.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,50"
+            Spacing="30"
+            HorizontalOptions="Center">
+
+            <!-- Toggle to switch between 2-dice (Level 1) and 3-dice (Level 2) gameplay -->
+            <HorizontalStackLayout 
+                HorizontalOptions="Center" 
+                Spacing="10">
+                <Label 
+                    Text="Level 1 (2 dice)" 
+                    VerticalOptions="Center" 
+                    TextColor="{AppThemeBinding Light='Black', Dark='White'}"
+                    FontSize="18"
+                    FontFamily="Sans" />
+                <Switch 
+                    x:Name="ModeSwitch" 
+                    Toggled="OnModeSwitched" />
+                <Label 
+                    Text="Level 2 (3 dice)" 
+                    VerticalOptions="Center" 
+                    TextColor="{AppThemeBinding Light='Black', Dark='White'}"
+                    FontSize="18"
+                    FontFamily="Sans" />
+            </HorizontalStackLayout>
+
+            <!-- Game Title and Greeting Message -->
+            <Label
+                Text="🎰 Welcome to Dice Roulette!"
+                FontSize="28"
+                FontFamily="Sans"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="{AppThemeBinding Light='Black', Dark='White'}" />
+
+            <Label
+                Text="Good Luck!"
+                FontSize="24"
+                FontFamily="Sans"
+                HorizontalOptions="Center"
+                TextColor="{AppThemeBinding Light='Black', Dark='White'}" />
+
+            <!-- Main Game Area: Shows dice images, result message, and score tracker -->
+            <VerticalStackLayout 
+                Spacing="20" 
+                HorizontalOptions="Center">
+
+                <Grid
+                    HorizontalOptions="Center"
+                    ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image 
+                        x:Name="Die1"
+                        Grid.Column="0"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="die1.png"
+                        HorizontalOptions="Center" />
+
+                    <Image 
+                        x:Name="Die2"
+                        Grid.Column="1"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="die2.png"
+                        HorizontalOptions="Center" />
+
+                    <Image 
+                        x:Name="Die3"
+                        Grid.Column="2"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="die3.png"
+                        IsVisible="False"
+                        HorizontalOptions="Center" />
+                </Grid>
+
+                <Label
+                    x:Name="ResultLabel"
+                    Text="Roll the dice!"
+                    FontSize="20"
+                    FontFamily="Sans"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    TextColor="{AppThemeBinding Light='Black', Dark='White'}" />
+
+                <Label
+                    x:Name="ScoreLabel"
+                    Text="Wins: 0 | Losses: 0"
+                    FontSize="20"
+                    FontFamily="Sans"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    TextColor="{AppThemeBinding Light='Black', Dark='White'}" />
+            </VerticalStackLayout>
+
+            <!-- Buttons for rolling dice and resetting the game -->
+            <Button
+                x:Name="RollButton"
+                Text="🎲 Roll Dice"
+                FontSize="20"
+                FontFamily="Sans"
+                TextColor="{AppThemeBinding Light='White', Dark='White'}"
+                BackgroundColor="#6A0DAD"
+                Padding="10"
+                Clicked="OnRollClicked" />
+
+            <Button
+                x:Name="ResetButton"
+                Text="🔄 Reset"
+                FontSize="20"
+                FontFamily="Sans"
+                TextColor="{AppThemeBinding Light='White', Dark='White'}"
+                BackgroundColor="#6A0DAD"
+                Padding="10"
+                Clicked="OnResetClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

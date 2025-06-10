@@ -1,0 +1,1173 @@
+.subsections_via_symbols
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+.section __DWARF, __debug_abbrev,regular,debug
+Ldebug_abbrev_start:
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 8,1
+	.asciz "Mono AOT Compiler 8.0.16.0 (8.0.1625.21506 @Commit: efd5742bb5dd1677fbbbeb277bcfb5c9025548e5)"
+	.asciz "System.Console.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,8,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,8,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,8,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,8,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,8,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,120,30
+	.align 3
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Consolejit_code_start:
+	.globl _mono_aot_System_Consolejit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+ut_60:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_ReadOnlySpan_1_char_StructureToPtr_object_intptr_bool
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_60
+	.long LDIFF_SYM3
+.text
+ut_61:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_ReadOnlySpan_1_char_PtrToStructure_intptr_object
+.text
+ut_62:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_StructureToPtr_object_intptr_bool
+.text
+ut_63:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_PtrToStructure_intptr_object
+.text
+ut_64:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_Span_1_byte_StructureToPtr_object_intptr_bool
+.text
+ut_65:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_Span_1_byte_PtrToStructure_intptr_object
+.text
+ut_66:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_Span_1_char_StructureToPtr_object_intptr_bool
+.text
+ut_67:
+add x0, x0, 16
+b _System_Console_wrapper_other_System_Span_1_char_PtrToStructure_intptr_object
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_Interop_Sys_Log_byte__int
+wrapper_managed_to_native_Interop_Sys_Log_byte__int:
+.file 1 "<unknown>"
+.loc 1 1 0
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9001fbe
+.word 0xa90453b3
+.word 0xa9055bb5
+.word 0xa90663b7
+.word 0xa9076bb9
+.word 0xa90873bb
+.word 0xf9004bbd
+.word 0x910003f1
+.word 0xf9004fb1
+.word 0xf9000ba0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x0, [x16, #80]
+.word 0xd63f0000
+.word 0xaa0003f8
+.word 0x9100a3a0
+.word 0xf9400301
+.word 0xf90017a1
+.word 0xf9000300
+.word 0x910083a0
+bl _mono_threads_enter_gc_safe_region_unbalanced
+.word 0xf90053a0
+.word 0xf9400ba0
+.word 0xaa1a03e1
+bl _SystemNative_Log
+.word 0xf94053a0
+.word 0x910063a1
+bl _mono_threads_exit_gc_safe_region_unbalanced
+
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x350001c0
+.word 0x14000001
+.word 0xf94017a0
+.word 0xf9000300
+.word 0xf94037b8
+.word 0xf9403fba
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+.word 0x91022340
+.word 0xd280003e
+.word 0xb900001e
+.word 0xaa1a03e0
+bl _p_49
+bl _p_48
+.word 0xaa0003fa
+.word 0xb5ffff20
+.word 0x17fffff1
+
+Lme_44:
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Consolejit_code_end:
+	.globl _mono_aot_System_Consolejit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Console_System_Console_get_OutputEncoding
+.no_dead_strip _System_Console_System_Console_get_Out
+.no_dead_strip _System_Console_System_Console_CreateOutputWriter_System_IO_Stream
+.no_dead_strip _System_Console_System_Console_WriteLine_object
+.no_dead_strip _System_Console_System_Console__cctor
+.no_dead_strip _System_Console_System_Console__get_Outg__EnsureInitialized_26_0
+.no_dead_strip _System_Console_System_NSLogStream__ctor_System_Text_Encoding
+.no_dead_strip _System_Console_System_NSLogStream_Print_System_ReadOnlySpan_1_char
+.no_dead_strip _System_Console_System_ConsolePal_OpenStandardOutput
+.no_dead_strip _System_Console_System_ConsolePal_get_OutputEncoding
+.no_dead_strip _System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetPreamble
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_get_CodePage
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_get_EncodingName
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_get_WebName
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetByteCount_char__int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetByteCount_char___int_int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetByteCount_string
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetBytes_char__int_byte__int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetBytes_char___int_int_byte___int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetBytes_string
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetBytes_string_int_int_byte___int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetCharCount_byte__int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetCharCount_byte___int_int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetChars_byte__int_char__int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetChars_byte___int_int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetChars_byte___int_int_char___int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetDecoder
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetEncoder
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetMaxByteCount_int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetMaxCharCount_int
+.no_dead_strip _System_Console_System_Text_ConsoleEncoding_GetString_byte___int_int
+.no_dead_strip _System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess
+.no_dead_strip _System_Console_System_IO_ConsoleStream_Write_byte___int_int
+.no_dead_strip _System_Console_System_IO_ConsoleStream_Read_byte___int_int
+.no_dead_strip _System_Console_System_IO_ConsoleStream_ReadByte
+.no_dead_strip _System_Console_System_IO_ConsoleStream_Dispose_bool
+.no_dead_strip _System_Console_System_IO_ConsoleStream_get_CanRead
+.no_dead_strip _System_Console_System_IO_ConsoleStream_get_CanWrite
+.no_dead_strip _System_Console_System_IO_ConsoleStream_get_CanSeek
+.no_dead_strip _System_Console_System_IO_ConsoleStream_get_Length
+.no_dead_strip _System_Console_System_IO_ConsoleStream_get_Position
+.no_dead_strip _System_Console_System_IO_ConsoleStream_set_Position_long
+.no_dead_strip _System_Console_System_IO_ConsoleStream_Flush
+.no_dead_strip _System_Console_System_IO_ConsoleStream_SetLength_long
+.no_dead_strip _System_Console_System_IO_ConsoleStream_Seek_long_System_IO_SeekOrigin
+.no_dead_strip _System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int
+.no_dead_strip _System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int
+.no_dead_strip _System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding
+.no_dead_strip _System_Console_System_IO_CachedConsoleStream_Read_System_Span_1_byte
+.no_dead_strip _System_Console_System_IO_CachedConsoleStream_Write_System_ReadOnlySpan_1_byte
+.no_dead_strip _System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char
+.no_dead_strip _System_Console_System_IO_Error_GetReadNotSupported
+.no_dead_strip _System_Console_System_IO_Error_GetSeekNotSupported
+.no_dead_strip _System_Console_System_IO_Error_GetWriteNotSupported
+.no_dead_strip _System_Console_wrapper_delegate_invoke_System_Runtime_CompilerServices_ConditionalWeakTable_2_CreateValueCallback_TKey_REF_TValue_REF_invoke_TValue_TKey_TKey_REF
+.no_dead_strip _System_Console_wrapper_other_System_ReadOnlySpan_1_char_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Console_wrapper_other_System_ReadOnlySpan_1_char_PtrToStructure_intptr_object
+.no_dead_strip _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_PtrToStructure_intptr_object
+.no_dead_strip _System_Console_wrapper_other_System_Span_1_byte_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Console_wrapper_other_System_Span_1_byte_PtrToStructure_intptr_object
+.no_dead_strip _System_Console_wrapper_other_System_Span_1_char_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Console_wrapper_other_System_Span_1_char_PtrToStructure_intptr_object
+.no_dead_strip _mono_aot_System_Console_init_method
+.no_dead_strip _mono_aot_System_Console_init_method_gshared_mrgctx
+.no_dead_strip _mono_aot_System_Console_init_method_gshared_this
+.no_dead_strip _mono_aot_System_Console_init_method_gshared_vtable
+.no_dead_strip _mono_aot_System_Console_icall_cold_wrapper_264
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Consolemethod_addresses:
+	.globl _mono_aot_System_Consolemethod_addresses
+	.no_dead_strip method_addresses
+bl method_addresses
+bl _System_Console_System_Console_get_OutputEncoding
+bl _System_Console_System_Console_get_Out
+bl _System_Console_System_Console_CreateOutputWriter_System_IO_Stream
+bl _System_Console_System_Console_WriteLine_object
+bl _System_Console_System_Console__cctor
+bl _System_Console_System_Console__get_Outg__EnsureInitialized_26_0
+bl _System_Console_System_NSLogStream__ctor_System_Text_Encoding
+bl _System_Console_System_NSLogStream_Print_System_ReadOnlySpan_1_char
+bl _System_Console_System_ConsolePal_OpenStandardOutput
+bl _System_Console_System_ConsolePal_get_OutputEncoding
+bl _System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding
+bl _System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding
+bl _System_Console_System_Text_ConsoleEncoding_GetPreamble
+bl _System_Console_System_Text_ConsoleEncoding_get_CodePage
+bl _System_Console_System_Text_ConsoleEncoding_get_EncodingName
+bl _System_Console_System_Text_ConsoleEncoding_get_WebName
+bl _System_Console_System_Text_ConsoleEncoding_GetByteCount_char__int
+bl _System_Console_System_Text_ConsoleEncoding_GetByteCount_char___int_int
+bl _System_Console_System_Text_ConsoleEncoding_GetByteCount_string
+bl _System_Console_System_Text_ConsoleEncoding_GetBytes_char__int_byte__int
+bl _System_Console_System_Text_ConsoleEncoding_GetBytes_char___int_int_byte___int
+bl _System_Console_System_Text_ConsoleEncoding_GetBytes_string
+bl _System_Console_System_Text_ConsoleEncoding_GetBytes_string_int_int_byte___int
+bl _System_Console_System_Text_ConsoleEncoding_GetCharCount_byte__int
+bl _System_Console_System_Text_ConsoleEncoding_GetCharCount_byte___int_int
+bl _System_Console_System_Text_ConsoleEncoding_GetChars_byte__int_char__int
+bl _System_Console_System_Text_ConsoleEncoding_GetChars_byte___int_int
+bl _System_Console_System_Text_ConsoleEncoding_GetChars_byte___int_int_char___int
+bl _System_Console_System_Text_ConsoleEncoding_GetDecoder
+bl _System_Console_System_Text_ConsoleEncoding_GetEncoder
+bl _System_Console_System_Text_ConsoleEncoding_GetMaxByteCount_int
+bl _System_Console_System_Text_ConsoleEncoding_GetMaxCharCount_int
+bl _System_Console_System_Text_ConsoleEncoding_GetString_byte___int_int
+bl _System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess
+bl _System_Console_System_IO_ConsoleStream_Write_byte___int_int
+bl _System_Console_System_IO_ConsoleStream_Read_byte___int_int
+bl _System_Console_System_IO_ConsoleStream_ReadByte
+bl _System_Console_System_IO_ConsoleStream_Dispose_bool
+bl _System_Console_System_IO_ConsoleStream_get_CanRead
+bl _System_Console_System_IO_ConsoleStream_get_CanWrite
+bl _System_Console_System_IO_ConsoleStream_get_CanSeek
+bl _System_Console_System_IO_ConsoleStream_get_Length
+bl _System_Console_System_IO_ConsoleStream_get_Position
+bl _System_Console_System_IO_ConsoleStream_set_Position_long
+bl _System_Console_System_IO_ConsoleStream_Flush
+bl _System_Console_System_IO_ConsoleStream_SetLength_long
+bl _System_Console_System_IO_ConsoleStream_Seek_long_System_IO_SeekOrigin
+bl _System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int
+bl _System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int
+bl _System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding
+bl _System_Console_System_IO_CachedConsoleStream_Read_System_Span_1_byte
+bl _System_Console_System_IO_CachedConsoleStream_Write_System_ReadOnlySpan_1_byte
+bl method_addresses
+bl _System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char
+bl _System_Console_System_IO_Error_GetReadNotSupported
+bl _System_Console_System_IO_Error_GetSeekNotSupported
+bl _System_Console_System_IO_Error_GetWriteNotSupported
+bl method_addresses
+bl _System_Console_wrapper_delegate_invoke_System_Runtime_CompilerServices_ConditionalWeakTable_2_CreateValueCallback_TKey_REF_TValue_REF_invoke_TValue_TKey_TKey_REF
+bl _System_Console_wrapper_other_System_ReadOnlySpan_1_char_StructureToPtr_object_intptr_bool
+bl _System_Console_wrapper_other_System_ReadOnlySpan_1_char_PtrToStructure_intptr_object
+bl _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_StructureToPtr_object_intptr_bool
+bl _System_Console_wrapper_other_System_ReadOnlySpan_1_byte_PtrToStructure_intptr_object
+bl _System_Console_wrapper_other_System_Span_1_byte_StructureToPtr_object_intptr_bool
+bl _System_Console_wrapper_other_System_Span_1_byte_PtrToStructure_intptr_object
+bl _System_Console_wrapper_other_System_Span_1_char_StructureToPtr_object_intptr_bool
+bl _System_Console_wrapper_other_System_Span_1_char_PtrToStructure_intptr_object
+bl wrapper_managed_to_native_Interop_Sys_Log_byte__int
+bl _mono_aot_System_Console_init_method
+bl _mono_aot_System_Console_init_method_gshared_mrgctx
+bl _mono_aot_System_Console_init_method_gshared_this
+bl _mono_aot_System_Console_init_method_gshared_vtable
+bl _mono_aot_System_Console_icall_cold_wrapper_264
+bl method_addresses
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Consoleunbox_trampolines:
+	.globl _mono_aot_System_Consoleunbox_trampolines
+
+	.long 60,61,62,63,64,65,66,67
+unbox_trampolines_end:
+_mono_aot_System_Consoleunbox_trampolines_end:
+	.globl _mono_aot_System_Consoleunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Consoleunbox_trampoline_addresses:
+	.globl _mono_aot_System_Consoleunbox_trampoline_addresses
+bl ut_60
+bl ut_61
+bl ut_62
+bl ut_63
+bl ut_64
+bl ut_65
+bl ut_66
+bl ut_67
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Consoleunwind_info:
+	.globl _mono_aot_System_Consoleunwind_info
+
+	.byte 0,39,12,31,0,68,14,176,1,157,22,158,21,68,13,29,76,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68
+	.byte 153,8,154,7,68,155,6,156,5
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Consoleplt:
+	.globl _mono_aot_System_Consoleplt
+mono_aot_System_Console_plt:
+_p_1_plt_System_Console__jit_icall_mono_threads_state_poll_llvm:
+	.globl _p_1_plt_System_Console__jit_icall_mono_threads_state_poll_llvm
+.private_extern _p_1_plt_System_Console__jit_icall_mono_threads_state_poll_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_threads_state_poll
+plt_System_Console__jit_icall_mono_threads_state_poll:
+_p_1:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #200]
+br x16
+.word 245
+_p_2_plt_System_Console__jit_icall_mono_monitor_enter_v4_fast_llvm:
+	.globl _p_2_plt_System_Console__jit_icall_mono_monitor_enter_v4_fast_llvm
+.private_extern _p_2_plt_System_Console__jit_icall_mono_monitor_enter_v4_fast_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_monitor_enter_v4_fast
+plt_System_Console__jit_icall_mono_monitor_enter_v4_fast:
+_p_2:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 248
+_p_3_plt_System_Console__jit_icall_ves_icall_thread_finish_async_abort_llvm:
+	.globl _p_3_plt_System_Console__jit_icall_ves_icall_thread_finish_async_abort_llvm
+.private_extern _p_3_plt_System_Console__jit_icall_ves_icall_thread_finish_async_abort_llvm
+	.no_dead_strip plt_System_Console__jit_icall_ves_icall_thread_finish_async_abort
+plt_System_Console__jit_icall_ves_icall_thread_finish_async_abort:
+_p_3:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 251
+_p_4_plt_System_Console__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_4_plt_System_Console__jit_icall_mono_generic_class_init_llvm
+.private_extern _p_4_plt_System_Console__jit_icall_mono_generic_class_init_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_generic_class_init
+plt_System_Console__jit_icall_mono_generic_class_init:
+_p_4:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 254
+_p_5_plt_System_Console__jit_icall_mono_monitor_enter_v4_internal_llvm:
+	.globl _p_5_plt_System_Console__jit_icall_mono_monitor_enter_v4_internal_llvm
+.private_extern _p_5_plt_System_Console__jit_icall_mono_monitor_enter_v4_internal_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_monitor_enter_v4_internal
+plt_System_Console__jit_icall_mono_monitor_enter_v4_internal:
+_p_5:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 257
+_p_6_plt_System_Console_System_Threading_Monitor_Exit_object_llvm:
+	.globl _p_6_plt_System_Console_System_Threading_Monitor_Exit_object_llvm
+.private_extern _p_6_plt_System_Console_System_Threading_Monitor_Exit_object_llvm
+	.no_dead_strip plt_System_Console_System_Threading_Monitor_Exit_object
+plt_System_Console_System_Threading_Monitor_Exit_object:
+_p_6:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 260
+_p_7_plt_System_Console__jit_icall_llvm_resume_unwind_trampoline_llvm:
+	.globl _p_7_plt_System_Console__jit_icall_llvm_resume_unwind_trampoline_llvm
+.private_extern _p_7_plt_System_Console__jit_icall_llvm_resume_unwind_trampoline_llvm
+	.no_dead_strip plt_System_Console__jit_icall_llvm_resume_unwind_trampoline
+plt_System_Console__jit_icall_llvm_resume_unwind_trampoline:
+_p_7:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 265
+_p_8_plt_System_Console_System_Console__get_Outg__EnsureInitialized_26_0_llvm:
+	.globl _p_8_plt_System_Console_System_Console__get_Outg__EnsureInitialized_26_0_llvm
+.private_extern _p_8_plt_System_Console_System_Console__get_Outg__EnsureInitialized_26_0_llvm
+	.no_dead_strip plt_System_Console_System_Console__get_Outg__EnsureInitialized_26_0
+plt_System_Console_System_Console__get_Outg__EnsureInitialized_26_0:
+_p_8:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 268
+_p_9_plt_System_Console_System_Console_get_OutputEncoding_llvm:
+	.globl _p_9_plt_System_Console_System_Console_get_OutputEncoding_llvm
+.private_extern _p_9_plt_System_Console_System_Console_get_OutputEncoding_llvm
+	.no_dead_strip plt_System_Console_System_Console_get_OutputEncoding
+plt_System_Console_System_Console_get_OutputEncoding:
+_p_9:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 270
+_p_10_plt_System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding_llvm:
+	.globl _p_10_plt_System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding_llvm
+.private_extern _p_10_plt_System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding_llvm
+	.no_dead_strip plt_System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding
+plt_System_Console_System_Text_EncodingExtensions_RemovePreamble_System_Text_Encoding:
+_p_10:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 272
+_p_11_plt_System_Console_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_11_plt_System_Console_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.private_extern _p_11_plt_System_Console_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+	.no_dead_strip plt_System_Console_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_System_Console_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_11:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 274
+_p_12_plt_System_Console_System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_int_bool_llvm:
+	.globl _p_12_plt_System_Console_System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_int_bool_llvm
+.private_extern _p_12_plt_System_Console_System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_int_bool_llvm
+	.no_dead_strip plt_System_Console_System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_int_bool
+plt_System_Console_System_IO_StreamWriter__ctor_System_IO_Stream_System_Text_Encoding_int_bool:
+_p_12:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 282
+_p_13_plt_System_Console_System_IO_StreamWriter_set_AutoFlush_bool_llvm:
+	.globl _p_13_plt_System_Console_System_IO_StreamWriter_set_AutoFlush_bool_llvm
+.private_extern _p_13_plt_System_Console_System_IO_StreamWriter_set_AutoFlush_bool_llvm
+	.no_dead_strip plt_System_Console_System_IO_StreamWriter_set_AutoFlush_bool
+plt_System_Console_System_IO_StreamWriter_set_AutoFlush_bool:
+_p_13:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 287
+_p_14_plt_System_Console_System_IO_TextWriter_Synchronized_System_IO_TextWriter_llvm:
+	.globl _p_14_plt_System_Console_System_IO_TextWriter_Synchronized_System_IO_TextWriter_llvm
+.private_extern _p_14_plt_System_Console_System_IO_TextWriter_Synchronized_System_IO_TextWriter_llvm
+	.no_dead_strip plt_System_Console_System_IO_TextWriter_Synchronized_System_IO_TextWriter
+plt_System_Console_System_IO_TextWriter_Synchronized_System_IO_TextWriter:
+_p_14:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 292
+_p_15_plt_System_Console_System_Console_get_Out_llvm:
+	.globl _p_15_plt_System_Console_System_Console_get_Out_llvm
+.private_extern _p_15_plt_System_Console_System_Console_get_Out_llvm
+	.no_dead_strip plt_System_Console_System_Console_get_Out
+plt_System_Console_System_Console_get_Out:
+_p_15:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 297
+_p_16_plt_System_Console__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_16_plt_System_Console__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_16_plt_System_Console__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_System_Console__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_System_Console__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_16:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 299
+_p_17_plt_System_Console_System_ConsolePal_OpenStandardOutput_llvm:
+	.globl _p_17_plt_System_Console_System_ConsolePal_OpenStandardOutput_llvm
+.private_extern _p_17_plt_System_Console_System_ConsolePal_OpenStandardOutput_llvm
+	.no_dead_strip plt_System_Console_System_ConsolePal_OpenStandardOutput
+plt_System_Console_System_ConsolePal_OpenStandardOutput:
+_p_17:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 302
+_p_18_plt_System_Console_System_Console_CreateOutputWriter_System_IO_Stream_llvm:
+	.globl _p_18_plt_System_Console_System_Console_CreateOutputWriter_System_IO_Stream_llvm
+.private_extern _p_18_plt_System_Console_System_Console_CreateOutputWriter_System_IO_Stream_llvm
+	.no_dead_strip plt_System_Console_System_Console_CreateOutputWriter_System_IO_Stream
+plt_System_Console_System_Console_CreateOutputWriter_System_IO_Stream:
+_p_18:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 304
+_p_19_plt_System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding_llvm:
+	.globl _p_19_plt_System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding_llvm
+.private_extern _p_19_plt_System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding_llvm
+	.no_dead_strip plt_System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding
+plt_System_Console_System_IO_CachedConsoleStream__ctor_System_Text_Encoding:
+_p_19:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 306
+_p_20_plt_System_Console_Interop_Sys_Log_byte__int_llvm:
+	.globl _p_20_plt_System_Console_Interop_Sys_Log_byte__int_llvm
+.private_extern _p_20_plt_System_Console_Interop_Sys_Log_byte__int_llvm
+	.no_dead_strip plt_System_Console_Interop_Sys_Log_byte__int
+plt_System_Console_Interop_Sys_Log_byte__int:
+_p_20:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 308
+_p_21_plt_System_Console_System_NSLogStream__ctor_System_Text_Encoding_llvm:
+	.globl _p_21_plt_System_Console_System_NSLogStream__ctor_System_Text_Encoding_llvm
+.private_extern _p_21_plt_System_Console_System_NSLogStream__ctor_System_Text_Encoding_llvm
+	.no_dead_strip plt_System_Console_System_NSLogStream__ctor_System_Text_Encoding
+plt_System_Console_System_NSLogStream__ctor_System_Text_Encoding:
+_p_21:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 310
+_p_22_plt_System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding_llvm:
+	.globl _p_22_plt_System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding_llvm
+.private_extern _p_22_plt_System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding_llvm
+	.no_dead_strip plt_System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding
+plt_System_Console_System_Text_ConsoleEncoding__ctor_System_Text_Encoding:
+_p_22:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 312
+_p_23_plt_System_Console_System_Text_Encoding__ctor_llvm:
+	.globl _p_23_plt_System_Console_System_Text_Encoding__ctor_llvm
+.private_extern _p_23_plt_System_Console_System_Text_Encoding__ctor_llvm
+	.no_dead_strip plt_System_Console_System_Text_Encoding__ctor
+plt_System_Console_System_Text_Encoding__ctor:
+_p_23:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 314
+_p_24_plt_System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int_llvm:
+	.globl _p_24_plt_System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int_llvm
+.private_extern _p_24_plt_System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int_llvm
+	.no_dead_strip plt_System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int
+plt_System_Console_System_IO_ConsoleStream_ValidateWrite_byte___int_int:
+_p_24:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 319
+_p_25_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm:
+	.globl _p_25_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+.private_extern _p_25_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+	.no_dead_strip plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException
+plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException:
+_p_25:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 321
+_p_26_plt_System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int_llvm:
+	.globl _p_26_plt_System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int_llvm
+.private_extern _p_26_plt_System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int_llvm
+	.no_dead_strip plt_System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int
+plt_System_Console_System_IO_ConsoleStream_ValidateRead_byte___int_int:
+_p_26:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 326
+_p_27_plt_System_Console_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm:
+	.globl _p_27_plt_System_Console_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm
+.private_extern _p_27_plt_System_Console_System_ThrowHelper_ThrowArrayTypeMismatchException_llvm
+	.no_dead_strip plt_System_Console_System_ThrowHelper_ThrowArrayTypeMismatchException
+plt_System_Console_System_ThrowHelper_ThrowArrayTypeMismatchException:
+_p_27:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 328
+_p_28_plt_System_Console_System_IO_Error_GetSeekNotSupported_llvm:
+	.globl _p_28_plt_System_Console_System_IO_Error_GetSeekNotSupported_llvm
+.private_extern _p_28_plt_System_Console_System_IO_Error_GetSeekNotSupported_llvm
+	.no_dead_strip plt_System_Console_System_IO_Error_GetSeekNotSupported
+plt_System_Console_System_IO_Error_GetSeekNotSupported:
+_p_28:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 333
+_p_29_plt_System_Console__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_29_plt_System_Console__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_29_plt_System_Console__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_arch_throw_exception
+plt_System_Console__jit_icall_mono_arch_throw_exception:
+_p_29:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 335
+_p_30_plt_System_Console_System_IO_Error_GetReadNotSupported_llvm:
+	.globl _p_30_plt_System_Console_System_IO_Error_GetReadNotSupported_llvm
+.private_extern _p_30_plt_System_Console_System_IO_Error_GetReadNotSupported_llvm
+	.no_dead_strip plt_System_Console_System_IO_Error_GetReadNotSupported
+plt_System_Console_System_IO_Error_GetReadNotSupported:
+_p_30:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 337
+_p_31_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm:
+	.globl _p_31_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm
+.private_extern _p_31_plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm
+	.no_dead_strip plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
+plt_System_Console_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
+_p_31:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 339
+_p_32_plt_System_Console_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm:
+	.globl _p_32_plt_System_Console_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm
+.private_extern _p_32_plt_System_Console_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm
+	.no_dead_strip plt_System_Console_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
+plt_System_Console_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
+_p_32:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 344
+_p_33_plt_System_Console_System_IO_Error_GetWriteNotSupported_llvm:
+	.globl _p_33_plt_System_Console_System_IO_Error_GetWriteNotSupported_llvm
+.private_extern _p_33_plt_System_Console_System_IO_Error_GetWriteNotSupported_llvm
+	.no_dead_strip plt_System_Console_System_IO_Error_GetWriteNotSupported
+plt_System_Console_System_IO_Error_GetWriteNotSupported:
+_p_33:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 349
+_p_34_plt_System_Console_System_Text_StringBuilder__ctor_llvm:
+	.globl _p_34_plt_System_Console_System_Text_StringBuilder__ctor_llvm
+.private_extern _p_34_plt_System_Console_System_Text_StringBuilder__ctor_llvm
+	.no_dead_strip plt_System_Console_System_Text_StringBuilder__ctor
+plt_System_Console_System_Text_StringBuilder__ctor:
+_p_34:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 351
+_p_35_plt_System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess_llvm:
+	.globl _p_35_plt_System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess_llvm
+.private_extern _p_35_plt_System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess_llvm
+	.no_dead_strip plt_System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess
+plt_System_Console_System_IO_ConsoleStream__ctor_System_IO_FileAccess:
+_p_35:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 356
+_p_36_plt_System_Console_System_Text_Decoder_GetChars_System_ReadOnlySpan_1_byte_System_Span_1_char_bool_llvm:
+	.globl _p_36_plt_System_Console_System_Text_Decoder_GetChars_System_ReadOnlySpan_1_byte_System_Span_1_char_bool_llvm
+.private_extern _p_36_plt_System_Console_System_Text_Decoder_GetChars_System_ReadOnlySpan_1_byte_System_Span_1_char_bool_llvm
+	.no_dead_strip plt_System_Console_System_Text_Decoder_GetChars_System_ReadOnlySpan_1_byte_System_Span_1_char_bool
+plt_System_Console_System_Text_Decoder_GetChars_System_ReadOnlySpan_1_byte_System_Span_1_char_bool:
+_p_36:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 358
+_p_37_plt_System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char_llvm:
+	.globl _p_37_plt_System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char_llvm
+.private_extern _p_37_plt_System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char_llvm
+	.no_dead_strip plt_System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char
+plt_System_Console_System_IO_CachedConsoleStream_WriteOrCache_System_IO_CachedConsoleStream_System_Text_StringBuilder_System_Span_1_char:
+_p_37:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 363
+_p_38_plt_System_Console_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm:
+	.globl _p_38_plt_System_Console_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm
+.private_extern _p_38_plt_System_Console_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type_llvm
+	.no_dead_strip plt_System_Console_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type
+plt_System_Console_System_ThrowHelper_ThrowInvalidTypeWithPointersNotSupported_System_Type:
+_p_38:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 365
+_p_39_plt_System_Console_System_SpanHelpers_LastIndexOf_char_char__char_int_llvm:
+	.globl _p_39_plt_System_Console_System_SpanHelpers_LastIndexOf_char_char__char_int_llvm
+.private_extern _p_39_plt_System_Console_System_SpanHelpers_LastIndexOf_char_char__char_int_llvm
+	.no_dead_strip plt_System_Console_System_SpanHelpers_LastIndexOf_char_char__char_int
+plt_System_Console_System_SpanHelpers_LastIndexOf_char_char__char_int:
+_p_39:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 374
+_p_40_plt_System_Console_System_Text_StringBuilder_Append_System_ReadOnlySpan_1_char_llvm:
+	.globl _p_40_plt_System_Console_System_Text_StringBuilder_Append_System_ReadOnlySpan_1_char_llvm
+.private_extern _p_40_plt_System_Console_System_Text_StringBuilder_Append_System_ReadOnlySpan_1_char_llvm
+	.no_dead_strip plt_System_Console_System_Text_StringBuilder_Append_System_ReadOnlySpan_1_char
+plt_System_Console_System_Text_StringBuilder_Append_System_ReadOnlySpan_1_char:
+_p_40:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 390
+_p_41_plt_System_Console_System_Text_StringBuilder_Clear_llvm:
+	.globl _p_41_plt_System_Console_System_Text_StringBuilder_Clear_llvm
+.private_extern _p_41_plt_System_Console_System_Text_StringBuilder_Clear_llvm
+	.no_dead_strip plt_System_Console_System_Text_StringBuilder_Clear
+plt_System_Console_System_Text_StringBuilder_Clear:
+_p_41:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 395
+_p_42_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_long_System_SpanHelpers_DontNegate_1_long_long__long_int_llvm:
+	.globl _p_42_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_long_System_SpanHelpers_DontNegate_1_long_long__long_int_llvm
+.private_extern _p_42_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_long_System_SpanHelpers_DontNegate_1_long_long__long_int_llvm
+	.no_dead_strip plt_System_Console_System_SpanHelpers_LastIndexOfValueType_long_System_SpanHelpers_DontNegate_1_long_long__long_int
+plt_System_Console_System_SpanHelpers_LastIndexOfValueType_long_System_SpanHelpers_DontNegate_1_long_long__long_int:
+_p_42:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 420
+_p_43_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int_System_SpanHelpers_DontNegate_1_int_int__int_int_llvm:
+	.globl _p_43_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int_System_SpanHelpers_DontNegate_1_int_int__int_int_llvm
+.private_extern _p_43_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int_System_SpanHelpers_DontNegate_1_int_int__int_int_llvm
+	.no_dead_strip plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int_System_SpanHelpers_DontNegate_1_int_int__int_int
+plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int_System_SpanHelpers_DontNegate_1_int_int__int_int:
+_p_43:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 456
+_p_44_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int16_System_SpanHelpers_DontNegate_1_int16_int16__int16_int_llvm:
+	.globl _p_44_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int16_System_SpanHelpers_DontNegate_1_int16_int16__int16_int_llvm
+.private_extern _p_44_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int16_System_SpanHelpers_DontNegate_1_int16_int16__int16_int_llvm
+	.no_dead_strip plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int16_System_SpanHelpers_DontNegate_1_int16_int16__int16_int
+plt_System_Console_System_SpanHelpers_LastIndexOfValueType_int16_System_SpanHelpers_DontNegate_1_int16_int16__int16_int:
+_p_44:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 492
+_p_45_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_byte_System_SpanHelpers_DontNegate_1_byte_byte__byte_int_llvm:
+	.globl _p_45_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_byte_System_SpanHelpers_DontNegate_1_byte_byte__byte_int_llvm
+.private_extern _p_45_plt_System_Console_System_SpanHelpers_LastIndexOfValueType_byte_System_SpanHelpers_DontNegate_1_byte_byte__byte_int_llvm
+	.no_dead_strip plt_System_Console_System_SpanHelpers_LastIndexOfValueType_byte_System_SpanHelpers_DontNegate_1_byte_byte__byte_int
+plt_System_Console_System_SpanHelpers_LastIndexOfValueType_byte_System_SpanHelpers_DontNegate_1_byte_byte__byte_int:
+_p_45:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 526
+_p_46_plt_System_Console_System_NotSupportedException__ctor_string_llvm:
+	.globl _p_46_plt_System_Console_System_NotSupportedException__ctor_string_llvm
+.private_extern _p_46_plt_System_Console_System_NotSupportedException__ctor_string_llvm
+	.no_dead_strip plt_System_Console_System_NotSupportedException__ctor_string
+plt_System_Console_System_NotSupportedException__ctor_string:
+_p_46:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 542
+_p_47_plt_System_Console__jit_icall_mini_init_method_rgctx_llvm:
+	.globl _p_47_plt_System_Console__jit_icall_mini_init_method_rgctx_llvm
+.private_extern _p_47_plt_System_Console__jit_icall_mini_init_method_rgctx_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mini_init_method_rgctx
+plt_System_Console__jit_icall_mini_init_method_rgctx:
+_p_47:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 547
+_p_48_plt_System_Console__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_48_plt_System_Console__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_48_plt_System_Console__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_thread_interruption_checkpoint
+plt_System_Console__jit_icall_mono_thread_interruption_checkpoint:
+_p_48:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 550
+_p_49_plt_System_Console__jit_icall_mono_arch_rethrow_exception_llvm:
+	.globl _p_49_plt_System_Console__jit_icall_mono_arch_rethrow_exception_llvm
+.private_extern _p_49_plt_System_Console__jit_icall_mono_arch_rethrow_exception_llvm
+	.no_dead_strip plt_System_Console__jit_icall_mono_arch_rethrow_exception
+plt_System_Console__jit_icall_mono_arch_rethrow_exception:
+_p_49:
+adrp x16, mono_aot_System_Console_got@PAGE+0
+add x16, x16, mono_aot_System_Console_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 553
+plt_end:
+_mono_aot_System_Consoleplt_end:
+	.globl _mono_aot_System_Consoleplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Consolejit_got:
+	.globl _mono_aot_System_Consolejit_got
+.lcomm mono_aot_System_Console_got, 592
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_System_Consoleglobals:
+	.globl _mono_aot_System_Consoleglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_2:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 16,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_1:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 16,16
+LDIFF_SYM7=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM8=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_0:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM11=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM12=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM13=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM13
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM14=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM14
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM15=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_3:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 17,16
+LDIFF_SYM16=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM16
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM17=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM17
+	.byte 2,35,16,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM18=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM18
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM19=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM19
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM20=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM20
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_Interop/Sys:Log"
+	.asciz "wrapper_managed_to_native_Interop_Sys_Log_byte__int"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_Interop_Sys_Log_byte__int
+	.quad Lme_44
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM21=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM21
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM22=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM23=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM23
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM24=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM24
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM25=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM25
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM26=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM26
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM27=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM27
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_Interop_Sys_Log_byte__int
+
+LDIFF_SYM28=Lme_44 - wrapper_managed_to_native_Interop_Sys_Log_byte__int
+	.long LDIFF_SYM28
+	.long 0
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,76,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7,68,155,6,156,5
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.text
+	.align 3
+mem_end:

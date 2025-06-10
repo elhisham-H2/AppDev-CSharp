@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/bin/Debug/net9.0/W3aExercise3
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/bin/Debug/net9.0/W3aExercise3.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/bin/Debug/net9.0/W3aExercise3.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/bin/Debug/net9.0/W3aExercise3.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/bin/Debug/net9.0/W3aExercise3.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/refint/W3aExercise3.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/W3aExercise3.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3aExercise3/obj/Debug/net9.0/ref/W3aExercise3.dll

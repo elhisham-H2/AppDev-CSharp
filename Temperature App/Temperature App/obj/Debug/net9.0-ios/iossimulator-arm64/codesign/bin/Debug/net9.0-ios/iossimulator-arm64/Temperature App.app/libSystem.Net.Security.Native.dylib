@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/Temperature App/Temperature App/bin/Debug/net9.0-ios/iossimulator-arm64/Temperature App.app/libSystem.Net.Security.Native.dylib

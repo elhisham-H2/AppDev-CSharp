@@ -1,0 +1,15 @@
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.AssemblyInfoInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.AssemblyInfo.cs
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.csproj.CoreCompileInputs.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.sourcelink.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/bin/Debug/net8.0/W3bExercise1
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/bin/Debug/net8.0/W3bExercise1.deps.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/bin/Debug/net8.0/W3bExercise1.runtimeconfig.json
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/bin/Debug/net8.0/W3bExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/bin/Debug/net8.0/W3bExercise1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/refint/W3bExercise1.dll
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.pdb
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/W3bExercise1.genruntimeconfig.cache
+/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/CSharp/W3bExercise1/obj/Debug/net8.0/ref/W3bExercise1.dll

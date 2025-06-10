@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="W5bMauiExample.Page1">
+    <VerticalStackLayout>
+        <Lable
+            Text="Page1"
+            VerticalOptions="Center"
+            HorizonalOptions="Center" />
+        <Button
+                                                      Text="Display Data"
+                                                      Clicked="Button_Clicked"/>
+        <Lable
+            x:Name=""resultLable"/>
+        <Lable
+                                                x:Name=""userInfoLable"/>    
+    </VerticalStackLayout>        
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="RectangleCalc.app/RectangleCalc">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>RectangleCalc.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>RectangleCalc.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/hashoomi/Desktop/AppDev-CSharp/RectangleCalc/RectangleCalc/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>RectangleCalc.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/hashoomi/Desktop/AppDev-CSharp/RectangleCalc/RectangleCalc</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_CodesignBundle Include="RollingDiceGame.app">
+      <CodesignSigningKey>9A12E5C4A3BF55582A389D689F57ACB552E3C4F4</CodesignSigningKey>
+      <CodesignEntitlements>/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/RollingDiceGame/RollingDiceGame/obj/Release/net8.0-ios/ios-arm64/Entitlements.xcent</CodesignEntitlements>
+      <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
+      <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
+      <RequireCodeSigning>true</RequireCodeSigning>
+      <CodesignExtraArgs></CodesignExtraArgs>
+      <CodesignResourceRules></CodesignResourceRules>
+      <CodesignDisableTimestamp>false</CodesignDisableTimestamp>
+      <CodesignKeychain></CodesignKeychain>
+      <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
+      <SourceProjectPath>/Users/hashoomi/Desktop/Post Secodary/AppDev-CSharp/RollingDiceGame/RollingDiceGame</SourceProjectPath>
+    </_CodesignBundle>
+  </ItemGroup>
+</Project>
